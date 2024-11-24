@@ -4,9 +4,13 @@ Run the command
 to test.
 
 or build docker container with
-```docker build -t js-test -f docker/Dockerfile .```
+```
+docker build -t js-test -f docker/Dockerfile .
+```
 and then finally run it using
-```docker run -p 8080:80 js-test```
+```
+docker run -p 8080:80 js-test
+```
 
 Quick copy:
 ```
