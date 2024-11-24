@@ -1,0 +1,1 @@
+export { oddOrEven } from './oddOrEven';
